@@ -3,7 +3,7 @@ PROJECT_NAME=TreeTest
 SOURCE_DIR?=src
 BUILD_DIR?=build
 
-CXX?=clang
+CXX?=clang++
 CXXFLAGS+=-Wall -std=c++17 -Iinclude
 
 # basic targets
